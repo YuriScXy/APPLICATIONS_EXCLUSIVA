@@ -1,0 +1,76 @@
+body {
+   background-color: #380000;
+}
+
+main {
+   background-color: #ffffff;
+   color: #000000;
+   font-family: Arial, sans-serif;
+   font-weight: 400;
+   font-size: large;
+}
+
+.btn-bg-exclusiva {
+   color: rgb(255, 255, 255);
+   background-color: #440000;
+   margin: auto;
+   margin-bottom: 10px;
+   font-weight: 500;
+   font-size: 25px;
+}
+
+.btn-bg-exclusiva:hover {
+   color: rgb(255, 255, 255);
+   background-color: #616161;
+}
+.cabe {
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+   background-color: rgba(0, 0, 0, 0.548);
+   color: #ffffff;
+   border-radius: 0px 0px 15px 15px;
+}
+
+#situacao{
+   opacity: 0;
+}
+
+#situacao.active{
+   opacity: 1;
+   position: relative;
+   overflow: hidden;
+   animation: fade-in 0.5s;
+}
+
+.bg-exclusiva-success{
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+   background-color: rgb(4, 117, 0);
+   color: #ffffff;
+   border-radius: 15px 15px 0px 0px;
+   position: relative;
+   overflow: hidden;
+   
+}
+
+.bg-exclusiva-error{
+   align-items: center;
+   text-align: center;
+   padding: 10px;
+   background-color: rgb(117, 0, 0);
+   color: #ffffff;
+   border-radius: 15px 15px 0px 0px;
+   position: relative;
+   overflow: hidden;
+}
+
+@keyframes fade-in {
+   from{
+      opacity: 0;
+   }
+   to{
+      opacity: 1;
+   }
+}

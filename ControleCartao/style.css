@@ -1,0 +1,188 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Outfit", sans-serif;
+}
+
+body {
+   height: 100vh;
+   background-color: #ffffff;
+}
+
+nav.menu-lateral {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100px;
+   height: 100%;
+   background-color: #910002;
+   padding: 40px 0 40px;
+   box-shadow: 3px 0 0 #500001;
+   overflow: hidden;
+   transition: 0.2s;
+}
+
+nav.menu-lateral:hover {
+   width: 300px;
+   transition: 0.2s;
+}
+
+nav > div img {
+   width: 100%;
+}
+
+.btn-expandir {
+   width: 100%;
+}
+
+.btn-expandir > i {
+   color: whitesmoke;
+   font-size: 40px;
+   cursor: pointer;
+   margin-left: 30px;
+}
+ul {
+   height: 100%;
+   list-style-type: none;
+}
+ul li.item-menu {
+   transition: 0.2s;
+}
+
+ul li.active {
+   background-color: #500001bd;
+   border-radius: 10px 0 0 10px;
+}
+
+ul li.item-menu:hover {
+   background: #500001bd;
+}
+
+ul li.item-menu a {
+   color: whitesmoke;
+   text-decoration: none;
+   font-size: 20px;
+   padding: 20px 2%;
+   display: flex;
+   margin-bottom: 10px;
+   line-height: 40px;
+}
+
+ul li.item-menu a .txt-link {
+   margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i {
+   font-size: 30px;
+   padding-left: 30%;
+}
+
+div.table-cast div.container table.table {
+   padding: 15px;
+   background-color: #910002;
+   border-radius: 15px 15px 0 0px;
+   color: #fff;
+}
+
+.bg-exclusiva {
+   background-color: #910002;
+}
+.font-text-exclusiva {
+   color: white;
+}
+
+.btn-exclusiva {
+   color: rgb(0, 0, 0);
+   background-color: #ffffff;
+   margin: auto;
+   margin-bottom: 10px;
+   font-weight: 500;
+   font-size: 25px;
+   border-radius: 10px;
+   border: 0;
+}
+
+.btn-exclusiva:hover {
+   color: rgb(255, 255, 255);
+   background-color: #616161;
+}
+
+#table-cast {
+   width: 90%;
+   margin: 0 auto;
+   margin-left: 110px;
+   padding: 10px;
+   background-color: #fff;
+}
+
+button.avanca {
+   background-color: rgb(145, 0, 0);
+   color: #500001;
+   margin: auto;
+}
+
+.line-tb {
+   padding: 15px;
+   text-align: center;
+   vertical-align: middle;
+   background-color: #ffffff;
+   color: #500001;
+   font-weight: 600;
+   text-transform: capitalize;
+   cursor: pointer;
+   &:hover {
+      background-color: #616161;
+      color: #fff;
+   }
+   & div {
+      margin: auto;
+   }
+}
+.line-hd {
+   padding: 15px;
+   text-align: center;
+   border-radius: 15px 15px 0 0;
+   background-color: #500001;
+   color: #fff;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+
+input[type="radio"] {
+   display: none;
+}
+
+/* Estilo do ícone */
+label i {
+   font-size: 24px;
+   margin-right: 5px;
+   font-weight: 600;
+}
+
+/* Estilo do ícone quando o radio button estiver marcado */
+input[type="radio"]:checked + label i {
+   color: #ffffff;
+}
+
+.btn-exclusiva-table {
+   background-color: #610909;
+   color: #ffffff;
+   margin: auto;
+}
+.btn-exclusiva-table:hover {
+   background-color: #005eca;
+   color: #ffffff;
+}
+.filtros {
+   padding: 15px;
+}
+
+.font-text-filtro {
+   color: #000000;
+   font-size: 20px;
+   font-weight: 600;
+   margin: auto;
+}
